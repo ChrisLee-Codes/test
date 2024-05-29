@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Fuyu",
+    "ID": "fuyu"
+  },
+  {
+    "Name": "GPT-4V",
+    "ID": "gpt4v"
+  },
+  {
+    "Name": "InstructBLIP",
+    "ID": "instructblip"
+  },
+  {
+    "Name": "LLaVA",
+    "ID": "llava"
+  },
+  {
+    "Name": "MiniCPM-V",
+    "ID": "minicpm_v"
+  },
+  {
+    "Name": "OtterHD",
+    "ID": "otterhd"
+  },
+  {
+    "Name": "QWEN-VL",
+    "ID": "qwen_vl"
+  }
+]

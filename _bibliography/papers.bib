@@ -1,0 +1,73 @@
+---
+---
+
+@article{zhang2024worldqa,
+  title={WorldQA: Multimodal World Knowledge in Videos through Long-Chain Reasoning},
+  author={Zhang, Yuanhan and Zhang, Kaichen and Li, Bo and Pu, Fanyi and Setiadharma, Christopher Arif and Yang, Jingkang and Liu, Ziwei},
+  journal={arXiv preprint arXiv:2405.03272},
+  arxiv={2405.03272},
+  year={2024},
+  preview={worldqa.png},
+  abstract={Multimodal information, together with our knowledge, help us to understand the complex and dynamic world. Large language models (LLM) and large multimodal models (LMM), however, still struggle to emulate this capability. In this paper, we present WorldQA, a video understanding dataset designed to push the boundaries of multimodal world models with three appealing properties: (1) Multimodal Inputs: The dataset comprises 1007 question-answer pairs and 303 videos, necessitating the analysis of both auditory and visual data for successful interpretation. (2) World Knowledge: We identify five essential types of world knowledge for question formulation. This approach challenges models to extend their capabilities beyond mere perception. (3) Long-Chain Reasoning: Our dataset introduces an average reasoning step of 4.45, notably surpassing other videoQA datasets. Furthermore, we introduce WorldRetriever, an agent designed to synthesize expert knowledge into a coherent reasoning chain, thereby facilitating accurate responses to WorldQA queries. Extensive evaluations of 13 prominent LLMs and LMMs reveal that WorldRetriever, although being the most effective model, achieved only 70% of humanlevel performance in multiple-choice questions. This finding highlights the necessity for further advancement in the reasoning and comprehension abilities of models. Our experiments also yield several key insights. For instance, while humans tend to perform better with increased frames, current LMMs, including WorldRetriever, show diminished performance under similar conditions. We hope that WorldQA, our methodology, and these insights could contribute to the future development of multimodal world models.}
+}
+
+@misc{li2023otterhd,
+    title={OtterHD: A High-Resolution Multi-modality Model},
+    author={Bo Li* and Peiyuan Zhang* and Jingkang Yang<sup>†</sup> and Yuanhan Zhang<sup>†</sup> and Fanyi Pu<sup>†</sup> and Ziwei Liu},
+    year={2023},
+    eprint={2311.04219},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    preview={OtterHD.png},
+    arxiv={2311.04219},
+    altmetric={156254825},
+    bibtex_show={true},
+    google_scholar_id={u-x6o8ySG0sC},
+    pdf={https://arxiv.org/pdf/2311.04219.pdf},
+    code={https://github.com/Luodian/Otter},
+    abstract={In this paper, we present OtterHD-8B, an innovative multimodal model evolved from Fuyu-8B, specifically engineered to interpret high-resolution visual inputs with granular precision. Unlike conventional models that are constrained by fixed-size vision encoders, OtterHD-8B boasts the ability to handle flexible input dimensions, ensuring its versatility across various inference requirements. Alongside this model, we introduce MagnifierBench, an evaluation framework designed to scrutinize models' ability to discern minute details and spatial relationships of small objects. Our comparative analysis reveals that while current leading models falter on this benchmark, OtterHD-8B, particularly when directly processing high-resolution inputs, outperforms its counterparts by a substantial margin. The findings illuminate the structural variances in visual information processing among different models and the influence that the vision encoders' pre-training resolution disparities have on model effectiveness within such benchmarks. Our study highlights the critical role of flexibility and high-resolution input capabilities in large multimodal models and also exemplifies the potential inherent in the Fuyu architecture's simplicity for handling complex visual data.}
+}
+
+@article{li2023mimicit,
+    title={MIMIC-IT: Multi-Modal In-Context Instruction Tuning},
+    author={Bo Li* and Yuanhan Zhang* and Liangyu Chen* and Jinghao Wang* and Fanyi Pu* and Jingkang Yang and Chunyuan Li and Ziwei Liu},
+    year={2023},
+    eprint={2306.05425},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    arXiv={2306.05425},
+    pdf={https://arxiv.org/pdf/2306.05425.pdf},
+    code={https://github.com/Luodian/Otter},
+    google_scholar_id={u5HHmVD_uO8C},
+    altmetric={149773892},
+    bibtex_show={true},
+    preview={MIMICIT.png},
+    selected={true},
+    abstract={High-quality instructions and responses are essential for the
+zero-shot performance of large language models on interactive natural
+language tasks. For interactive vision-language tasks involving
+intricate visual scenes, a large quantity of diverse and creative
+instruction-response pairs should be imperative to tune vision-language
+models (VLMs). Nevertheless, the current availability of vision-language
+instruction-response pairs in terms of quantity, diversity, and
+creativity remains limited, posing challenges to the generalization of
+interactive VLMs. Here we present
+<strong>M</strong>ult<strong>I</strong>-<strong>M</strong>odal
+<strong>I</strong>n-<strong>C</strong>ontext
+<strong>I</strong>nstruction <strong>T</strong>uning
+(<strong>MIMIC-IT</strong>), a dataset comprising 2.8 million multimodal
+instruction-response pairs, with 2.2 million unique instructions derived
+from images and videos. Each pair is accompanied by multi-modal
+in-context information, forming conversational contexts aimed at
+empowering VLMs in perception, reasoning, and planning. The
+instruction-response collection process, dubbed as
+<strong>Syphus</strong>, is scaled using an automatic annotation
+pipeline that combines human expertise with GPT's capabilities. Using
+the MIMIC-IT dataset, we train a large VLM named <strong>Otter</strong>.
+Based on extensive evaluations conducted on vision-language benchmarks,
+it has been observed that Otter demonstrates remarkable proficiency in
+multi-modal perception, reasoning, and in-context learning. Human
+evaluation reveals it effectively aligns with the user's intentions. We
+release the MIMIC-IT dataset, instruction-response collection pipeline,
+benchmarks, and the Otter model.}
+}
